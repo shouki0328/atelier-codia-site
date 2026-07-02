@@ -24,8 +24,9 @@
 - GitHub Pages workflowの参照タグ確認: `actions/checkout@v5`, `actions/setup-node@v5`, `actions/configure-pages@v6`, `actions/upload-pages-artifact@v4`, `actions/deploy-pages@v5` はGitHub上のタグ存在を確認済み
 - GitHub repository作成: `https://github.com/shouki0328/atelier-codia-site`
 - GitHub Pages公開URL: `https://shouki0328.github.io/atelier-codia-site/`
-- Pages workflow run `28564447323` 成功
-- 公開URLとhero画像がHTTP 200で配信されることを確認
+- Pages workflow run `28573470544` 成功
+- 公開URL、`/works/`、`/request/` がHTTP 200で配信されることを確認
+- 公開済み `/request/` に `Purchase Request`、`Lumiere Petal - ¥16,000`、`Submit request` が含まれることを確認
 
 スクリーンショット:
 
