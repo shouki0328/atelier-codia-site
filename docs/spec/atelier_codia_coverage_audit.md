@@ -10,7 +10,7 @@
 - 日本語の文字量とサイズを抑え、英語見出しを中心にした。
 - 画像にはaltを設定した。
 - CSSに `prefers-reduced-motion` を入れた。
-- GitHub Pagesは手動workflowとして準備し、公開は承認待ちにした。
+- GitHub Pagesは手動workflowとして準備し、公開済み。
 
 ## 残リスク
 
@@ -18,9 +18,8 @@
 - Van Cleef & Arpels 由来の象徴的モチーフ、ロゴ、装飾、文言、レイアウトは避けているが、公開前に最終目視確認する。
 - 公開範囲や個人情報の出し方は、公開前にオーナー確認する。
 
-## 公開前ゲート
+## 今後の更新前ゲート
 
 1. 作家プロフィール、作品名/素材説明の確認
 2. `npm run check` と表示確認の結果確認
-3. オーナー承認
-4. GitHub push、Pages有効化、workflow実行
+3. 必要に応じてGitHub pushとPages workflow実行

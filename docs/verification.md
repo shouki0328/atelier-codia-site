@@ -13,7 +13,7 @@
 結果:
 
 - `npm install`: 0 vulnerabilities
-- `npm run check`: Vite build成功、5 HTMLファイル検証済み
+- `npm run check`: Vite build成功、4 HTMLファイル検証済み
 - デスクトップ幅 1440x920: 横スクロールなし、ナビ表示、画像読み込み成功
 - スマホ幅 390x844: 横スクロールなし、メニュー開閉成功
 - `/`, `/works/`, `/about/` のタイトル・ヘッダー・主要見出しで `Atelier Codia` 表示を確認
@@ -22,6 +22,10 @@
 - モバイルでカード画像が過剰に縦長にならないよう高さ制御を確認
 - Console warn/error: なし
 - GitHub Pages workflowの参照タグ確認: `actions/checkout@v5`, `actions/setup-node@v5`, `actions/configure-pages@v6`, `actions/upload-pages-artifact@v4`, `actions/deploy-pages@v5` はGitHub上のタグ存在を確認済み
+- GitHub repository作成: `https://github.com/shouki0328/atelier-codia-site`
+- GitHub Pages公開URL: `https://shouki0328.github.io/atelier-codia-site/`
+- Pages workflow run `28564447323` 成功
+- 公開URLとhero画像がHTTP 200で配信されることを確認
 
 スクリーンショット:
 
@@ -32,14 +36,14 @@
 - `docs/screenshots/works-mobile-top.png`
 - `docs/screenshots/about-mobile-top.png`
 
-## 公開前の未承認事項
+## 公開済み事項
 
-- GitHub repository作成またはpush
+- GitHub repository作成/push
 - GitHub Pages有効化
 - Pages workflow実行
-- 公開URLの共有
+- 公開URL確認
 
-## 公開前に必要な情報
+## 今後差し替え候補
 
 - 実際の作品名、素材説明
 - 作家プロフィールや表示名

@@ -28,9 +28,17 @@ npm run check
 
 ## GitHub Pages
 
-このリポジトリには GitHub Pages 用の workflow を含めていますが、`workflow_dispatch` の手動実行のみです。公開は結果ゲート対象なので、push・Pages有効化・workflow実行の前にオーナー承認を取ります。
+公開URL:
 
-公開前に確認するもの:
+- https://shouki0328.github.io/atelier-codia-site/
+
+GitHub repository:
+
+- https://github.com/shouki0328/atelier-codia-site
+
+このリポジトリには GitHub Pages 用の workflow を含めています。workflow は `workflow_dispatch` の手動実行のみです。
+
+今後の公開前に確認するもの:
 
 - 実際の作品名、素材説明
 - 作家プロフィールや表示名
