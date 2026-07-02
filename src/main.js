@@ -106,7 +106,7 @@ const updateRequestSummary = () => {
   const quantity = Math.max(1, Number(quantityInput?.value || 1));
   if (summaryImage) {
     summaryImage.src = selected.image;
-    summaryImage.alt = `${selected.name} の作品イメージ`;
+    summaryImage.alt = `${selected.name} jewelry image`;
   }
   if (summaryName) summaryName.textContent = selected.name;
   if (summaryMeta) summaryMeta.textContent = selected.meta;

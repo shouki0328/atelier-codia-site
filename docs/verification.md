@@ -9,6 +9,9 @@
 - ローカルプレビュー `http://127.0.0.1:4177/` でPC/スマホ幅の表示確認
 - 主要導線: `/` → `/works` → `/request` → `/about`
 - ブランド名 `Atelier Codia` への表示更新確認
+- 英語版 / Japan Quality 訴求への文言更新確認
+- About の手作業・素材確認プロセス追加確認
+- Purchase Request フォーム下部のDemo注意書き削除確認
 
 結果:
 
@@ -17,8 +20,10 @@
 - デスクトップ幅 1440x920: 横スクロールなし、ナビ表示、画像読み込み成功
 - スマホ幅 390x844: 横スクロールなし、メニュー開閉成功
 - `/`, `/works/`, `/request/`, `/about/` のタイトル・ヘッダー・主要見出しで `Atelier Codia` 表示を確認
-- トップとCollectionに価格表示、購入申請ボタン、後日連絡/銀行振込/発送フローを追加
-- `/request/?piece=lumiere-petal` で作品自動選択、数量2の合計 `¥32,000`、疑似送信完了表示を確認
+- `/`, `/works/`, `/request/`, `/about/` に `Japan Quality` 訴求が含まれることを確認
+- サイト本体HTML/JS/CSSで日本語表示、旧見出し `Notes on materials and light.`、`Demo`/未実装注意書きが残っていないことを確認
+- トップとCollectionに価格表示、購入申請ボタン、後日連絡/銀行振込/発送フローを表示
+- `/request/?piece=lumiere-petal` で作品自動選択、数量2の合計 `¥32,000`、疑似送信完了表示 `Thank you for your purchase request.` を確認
 - モバイルでカード画像が過剰に縦長にならないよう高さ制御を確認
 - Console warn/error: なし
 - GitHub Pages workflowの参照タグ確認: `actions/checkout@v5`, `actions/setup-node@v5`, `actions/configure-pages@v6`, `actions/upload-pages-artifact@v4`, `actions/deploy-pages@v5` はGitHub上のタグ存在を確認済み
@@ -38,6 +43,7 @@
 - `docs/screenshots/request-mobile-top.png`
 - `docs/screenshots/request-mobile-success.png`
 - `docs/screenshots/about-mobile-top.png`
+- `docs/screenshots/about-process-mobile.png`
 
 ## 公開済み事項
 

@@ -541,8 +541,7 @@ h3 {
   margin-bottom: 28px;
 }
 
-.form-heading p,
-.form-note {
+.form-heading p {
   color: var(--muted);
 }
 
@@ -591,11 +590,6 @@ h3 {
 
 .consent input {
   margin-top: 5px;
-}
-
-.form-note {
-  margin: 12px 0 0;
-  font-size: 0.86rem;
 }
 
 .form-success {
