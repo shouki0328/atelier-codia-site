@@ -5,6 +5,7 @@ const root = resolve('dist');
 const requiredFiles = [
   'index.html',
   'works/index.html',
+  'request/index.html',
   'about/index.html',
   '404.html',
   'assets/hero-jewelry.jpg',

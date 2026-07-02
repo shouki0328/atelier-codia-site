@@ -10,6 +10,7 @@ export default defineConfig({
       input: {
         main: page('index.html'),
         works: page('works/index.html'),
+        request: page('request/index.html'),
         about: page('about/index.html'),
         notFound: page('404.html')
       }

@@ -20,7 +20,8 @@ npm run check
 ## 構成
 
 - `index.html` — `/` ファーストビュー、ブランドストーリー、Featured Collection、素材ノート
-- `works/index.html` — `/works` Collection / ブランドギャラリー
+- `works/index.html` — `/works` Collection / 価格付き作品一覧
+- `request/index.html` — `/request` 購入申請フォーム
 - `about/index.html` — `/about` ブランドストーリー
 - `404.html` — `/404` Not Found
 - `public/assets/` — 生成画像を圧縮したサイト用素材
@@ -41,5 +42,6 @@ GitHub repository:
 今後の公開前に確認するもの:
 
 - 実際の作品名、素材説明
+- 価格、銀行振込案内、発送条件
 - 作家プロフィールや表示名
 - 公開範囲に問題がないかの最終確認
